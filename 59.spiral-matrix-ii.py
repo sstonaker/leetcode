@@ -25,7 +25,7 @@ class Solution:
 
             # fill every val in left col (reverse order)
             for row in range(bottom, top - 1, -1):
-                mat[row][col] = val
+                mat[row][left] = val
                 val += 1
             left += 1
 
